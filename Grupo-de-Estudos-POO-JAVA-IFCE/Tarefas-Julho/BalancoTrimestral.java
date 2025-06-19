@@ -1,14 +1,12 @@
 public class BalancoTrimestral {
     public static void main(String[] args) {
-        // b) Declaração das variáveis
         int gastosJaneiro = 15000;
-        int gastosFevereiro = 23000;
+        int gastosFevereiro = 23000; 
         int gastosMarco = 17000;
         
-        // d) Cálculo do trimestre
         int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
         
-        // e) Impressão do resultado
-        System.out.println("Gasto trimestral: R$ " + gastosTrimestre);
+        System.out.printf("Balanço Trimestral:%nJaneiro: R$ %d%nFevereiro: R$ %d%nMarço: R$ %d%nTotal: R$ %d%n",
+                         gastosJaneiro, gastosFevereiro, gastosMarco, gastosTrimestre);
     }
 }
